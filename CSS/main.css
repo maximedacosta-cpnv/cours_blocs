@@ -95,7 +95,17 @@ h6 {
 #texte {
 
 	font-family: arial;
-	text-align: justify;
+
+}
+
+#text_2 {
+
+	font-family: arial;
+	position: relative;
+	width: 300px;
+	left: 650px;
+	background-color: white;
+	z-index: 1;
 
 }
 
@@ -347,4 +357,9 @@ textarea {
 
 }
 
+.images {
+
+	z-index: 2;
+
+}
 
