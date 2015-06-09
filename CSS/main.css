@@ -1,0 +1,350 @@
+#menu_gauche {
+
+	list-style-type: none;
+	display: inline-flex;
+	font-family: arial;
+	font-size: 17px;
+	text-align: left;
+
+}
+
+#menu_droite {
+
+	float: right;
+	font-family: arial;
+	font-size: 17px;
+	text-align: right;
+	display: inline-flex;
+
+}
+
+.menu_interieur_droite {
+
+	padding-right: 31px;
+
+}
+
+body {
+
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #f0f0f0;
+
+}
+
+h1 {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 40px;
+
+}
+
+h2 {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-size: 25px;
+
+}
+
+h3 {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 15px;
+
+}
+
+h4 {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 12px;
+
+}
+
+h5 {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 10px;
+
+}
+
+h6 {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 8px;
+
+}
+
+.titre {
+
+	line-height: 50px;
+	margin-bottom: 60px;
+
+}
+
+#texte {
+
+	font-family: arial;
+	text-align: justify;
+
+}
+
+footer {
+
+	font-family: arial;
+	text-align: right;
+	line-height: 20px;
+	border-top: 0.5px solid;
+	background-color: white;
+	text-align: right;
+	margin: auto;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+a:link {
+
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+a:visited {
+
+	text-decoration: none;
+	color: black;
+
+}
+
+
+a:hover {
+
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+
+.unsplash {
+
+	color: black;
+
+}
+
+.emplacementdansweb {
+
+	border-bottom: solid 0.1px;
+	margin-bottom: 20px;
+
+}
+
+html {
+
+	margin: auto;
+	width: 960px;
+
+}
+
+.portfolio_br {
+
+	margin-bottom: 20px;
+
+}
+
+.espace_image {
+
+	margin-bottom: 10px;
+
+}
+
+.espacetitre {
+
+	margin-bottom: 105px;
+
+}
+
+/*-------form {
+
+	font-family: arial;
+	font-weight: bold;
+	width: 540px;
+
+}---------*/
+
+#formulaire {
+
+	width: 540px;
+	margin-right:auto;
+	margin-left: 160px;
+
+}
+
+#nom{
+
+	text-align: right;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 18px;
+	
+}
+
+#madamemonsieur {
+
+	text-align: left;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 18px;
+	
+}
+
+#prenom{
+
+	text-align: right;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 18px;
+
+}
+
+#message {
+
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+#envoyer {
+
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.label_input{
+
+	width: 140px;
+	text-align: right;
+	margin-right: 20px;
+	display: inline-block;
+
+}
+
+.label_textarea {
+
+	vertical-align: top;
+	width: 140px;
+	text-align: right;
+	margin-right: 20px;
+	display: inline-block;	
+
+}
+
+.input {
+
+	width: 380px;
+	box-sizing: border-box;
+
+}
+
+.input_div {
+
+	width: 160px;
+	text-align: right;
+	margin-right: 20px;
+
+}
+
+label, input {
+
+	display: inline-block;
+
+}
+
+input[type=text] {
+
+  display: inline-block;
+  box-sizing: border-box;
+  width: 380px;
+  
+}
+
+textarea {
+
+	display: inline-block;
+	font-family: arial;
+	font-size: 18px;
+	resize: none;
+	float: right;
+	height: 180px;
+	box-sizing: border-box;
+	width: 380px;
+	margin-bottom: 25px;
+	
+}
+
+.envoyer {
+
+	font-family: arial;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 30px;
+	width: 140px;
+	margin-left: 400px;
+	background: transparent;
+	border: none;
+	margin-bottom: 50px;
+
+}
+
+#titre_contact {
+
+	margin-bottom: 70px;
+
+}
+
+#madamemonsieur_div2 {
+
+	width: 380px;
+	margin-left: 160px;
+	text-align: left;
+	display: inline-block;
+	
+}
+
+.madamemonsieur {
+
+	text-align: left;
+	display: inline-block;
+
+}
+
+#espace_madamemonsieur {
+
+	margin-right: 35px;
+
+}
+
+
