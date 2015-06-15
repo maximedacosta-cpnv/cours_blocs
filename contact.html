@@ -31,41 +31,53 @@
   
 			<body>
 			   
-			   <h1 id="titre_contact">Iberios inimi, tem quiam, con eius explis et <br>
+			   <h1 class="margin-bottomTitre">Iberios inimi, tem quiam, con eius explis et <br>
 			   occae cone num ilit untiae nonsequatem nobit<br>
 			   provid ea dolupta.<br></h1>
 			   
 			   
-			   <div id="formulaire">
+			   <div id="formulaireBloc">
                    
 					<form method="post" action="formulaire.php"> <!--Nous avons créé un formulaire-->
 					
-						<div id="madamemonsieur">
-							<div id="madamemonsieur_div2">
-                                <label class="label_madamemonsieur">Madame</label
+						<div id="madameMonsieur">
+						
+							<div id="madameMonsieurBloc">
+							
+                                <label>Madame</label
                                 ><input id="espace_madamemonsieur" type="radio" checked="checked" name="sex" value="F"> <!--Nous avons ajouté le label pour la facilité de                                          s'inscrire dans le formulaire. Puis, pour le choix du sexe, nous avons pris la balise radio qui est déjà sous "Madame" lors de l'ouverture de la                                  page.-->
-                                <label class="label_madamemonsieur">Monsieur</label
+                                <label>Monsieur</label
                                 ><input type="radio" name="sex" value="M">
+								
 							</div>
+							
 						</div>				
 					
-						<div id="nom">
-							<label class="label_input">Nom</label
+						<div class="categorie">
+						
+							<label class="labelInput">Nom</label
 							><input type="text" required="required" name="nom"><!--A chaque fois, nous avons ajouté le "required" pour obliger l'utilisateur de remplir le                                  f   formulaire-->
+						
 						</div>
 						
-						<div id="prenom">
-							<label class="label_input">Prénom</label
+						<div class="categorie">
+						
+							<label class="labelInput">Prénom</label
 							><input type="text" required="required" name="prenom">
+							
 						</div>
 						
-						<div id="message">
-							<label class="label_textarea">Message</label
+						<div class="categorie">
+						
+							<label class="labelTextarea">Message</label
 							><textarea required="required" name="message"></textarea>
+							
 						</div>
 						
 						<div id="envoyer">
+						
 							<input class="envoyer" type="submit" value="Envoyer"> <!--Nous avons aussi personnaliser le bouton envoyer avec la balise CSS "envoyer"-->
+						
 						</div>
                         
 					</form>
