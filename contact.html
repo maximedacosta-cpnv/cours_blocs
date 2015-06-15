@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<lang="fr">
+<lang="FR">
     
   <head>
+      
     <meta charset="UTF-8">
 	
         <title>Accueil - H&amp;M</title>
 		<link rel="stylesheet" href="./css/main.css">
 		
   </head>
- 
  
 	  <header>
 	  
@@ -29,32 +29,29 @@
 			
 	  </header>
   
-  
-  
-  
 			<body>
 			   
 			   <h1 id="titre_contact">Iberios inimi, tem quiam, con eius explis et <br>
 			   occae cone num ilit untiae nonsequatem nobit<br>
 			   provid ea dolupta.<br></h1>
 			   
-			  
 			   
 			   <div id="formulaire">
-					<form method="post" action="formulaire.php">
+                   
+					<form method="post" action="formulaire.php"> <!--Nous avons créé un formulaire-->
 					
 						<div id="madamemonsieur">
 							<div id="madamemonsieur_div2">
-							<label class="label_madamemonsieur">Madame</label
-							><input id="espace_madamemonsieur" type="radio" checked="checked" name="sex" value="F">
-							<label class="label_madamemonsieur">Monsieur</label
-							><input type="radio" name="sex" value="M">
+                                <label class="label_madamemonsieur">Madame</label
+                                ><input id="espace_madamemonsieur" type="radio" checked="checked" name="sex" value="F"> <!--Nous avons ajouté le label pour la facilité de                                          s'inscrire dans le formulaire. Puis, pour le choix du sexe, nous avons pris la balise radio qui est déjà sous "Madame" lors de l'ouverture de la                                  page.-->
+                                <label class="label_madamemonsieur">Monsieur</label
+                                ><input type="radio" name="sex" value="M">
 							</div>
 						</div>				
 					
 						<div id="nom">
 							<label class="label_input">Nom</label
-							><input type="text" required="required" name="nom">
+							><input type="text" required="required" name="nom"><!--A chaque fois, nous avons ajouté le "required" pour obliger l'utilisateur de remplir le                                  f   formulaire-->
 						</div>
 						
 						<div id="prenom">
@@ -68,22 +65,21 @@
 						</div>
 						
 						<div id="envoyer">
-							<input class="envoyer" type="submit" value="Envoyer">
+							<input class="envoyer" type="submit" value="Envoyer"> <!--Nous avons aussi personnaliser le bouton envoyer avec la balise CSS "envoyer"-->
 						</div>
+                        
 					</form>
+                   
 				</div>
 			   
-				
 			</body>
 			
 	
 		<footer>
 		
-		<p>&copy; Copyright 2015 - Crédits photos : <a class="unsplash" href="http://www.unsplash.com">unsplash.com</p></a>
+		      <p>&copy; Copyright 2015 - Crédits photos : <a class="unsplash" href="http://www.unsplash.com">unsplash.com</p></a><!--Pour le copyright, nous avons pris un                       caractère spécial codé, tout comme le "e" commercial dans le header.-->
 		
 		</footer>
-		
-		
 		
 
 </html>

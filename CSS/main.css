@@ -1,3 +1,5 @@
+/*-------------------------header----------------------------------*/
+
 #menu_gauche {
 
 	list-style-type: none;
@@ -21,8 +23,12 @@
 .menu_interieur_droite {
 
 	padding-right: 31px;
-
+   
 }
+    
+/*----------------------------------------------------------------*/
+    
+
 
 body {
 
@@ -31,6 +37,9 @@ body {
 	background-color: #f0f0f0;
 
 }
+
+
+/*---------------------------------titres--------------------------*/
 
 h1 {
 
@@ -46,6 +55,7 @@ h2 {
 	font-family: arial;
 	text-decoration: underline;
 	font-size: 25px;
+	margin-top: 0px;
 
 }
 
@@ -85,6 +95,9 @@ h6 {
 
 }
 
+
+/*----------------------------------------------------------------*/
+
 .titre {
 
 	line-height: 50px;
@@ -101,13 +114,23 @@ h6 {
 #text_2 {
 
 	font-family: arial;
-	position: relative;
-	width: 300px;
-	left: 650px;
-	background-color: white;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	width: 302px;
 	z-index: 1;
-
+	padding: 20px;
+	height: 268px;
+	box-sizing: border-box;
+	letter-spacing: 0.02em;
+	background-color: #FFF;
+	position: relative;
+	bottom: 356px;
+	left: 637px;
+	margin-bottom: -200px;
+	
 }
+
 
 footer {
 
@@ -120,6 +143,9 @@ footer {
 	margin: auto;
 
 }
+
+
+/*------------------------------liens hypertexte-------------------------*/
 
 a {
 
@@ -173,6 +199,9 @@ html {
 
 }
 
+
+/*----------------------------------portfolio------------------------*/
+
 .portfolio_br {
 
 	margin-bottom: 20px;
@@ -191,13 +220,8 @@ html {
 
 }
 
-/*-------form {
 
-	font-family: arial;
-	font-weight: bold;
-	width: 540px;
-
-}---------*/
+/*---------------------------------formulaire----------------------*/
 
 #formulaire {
 
@@ -357,9 +381,101 @@ textarea {
 
 }
 
+
+/*--------------------------------phase 2---------------------------*/
+
 .images {
 
 	z-index: 2;
+	
+}
+
+
+#text_3 {
+
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	width: 300px;
+	bottom: 350px;
+	padding: 20px;
+	height: 400px;
+	box-sizing: border-box;
+	letter-spacing: 0.02em;
+	left: 640px;
+	background-color: white;
+	position: relative;
+
+}
+
+#test_1 {
+
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	width: 300px;
+	padding: 20px;
+	height: 400px;
+	box-sizing: border-box;
+	letter-spacing: 0.02em;
+	left: 640px;
+	background-color: white;
+	position: relative;
+
+}
+
+.macbook-photo {
+
+	width: 940px;
+	display: inline-box;
+	box-sizing: border-box;
+	height: 400px;
+	
+}
+
+.image_macbook-photo {
+
+	width: 620px;
+	box-sizing: border-box;
+
+}
+
+.text_macbook-photo {
+
+	width: 300px;
+	box-sizing: border-box;
+	float: right;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+#livre {
+
+	width: 940px;
+	display: inline-box;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	height: 400px;
+}
+
+#image_livre {
+
+	width: 620px;
+	box-sizing: border-box;
+	float: right;
+
+}
+
+#text_livre {
+
+	width: 300px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
 
 }
 
