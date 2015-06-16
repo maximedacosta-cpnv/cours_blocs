@@ -146,7 +146,6 @@ footer {
 	text-align: right;
 	margin: auto;
 	background-color: transparent;
-	margin-top: 5%;
 
 }
 
@@ -209,7 +208,7 @@ html {
 
 #div_centrale {
 
-	width: 940px; /*(100*31)/940=*/
+	width: 100%; /*(100*31)/940=*/
 	box-sizing: border-box;
 
 }
@@ -357,8 +356,7 @@ textarea {
 	width: 100%; /*(100*940)/940=*/
 	display: inline-box;
 	box-sizing: border-box;
-	height: 42.55%; /*(100*400)/940=*/
-	margin-bottom: 3.2%; /*(100*30)/940=*/
+	margin: 0 auto;
 	
 }
 
@@ -371,12 +369,13 @@ textarea {
 
 .texteDroite {
 
-	width: 31.9%; /*(100*300)/940=*/
+	width: 31%; /*(100*300)/940=*/
 	box-sizing: border-box;
 	float: right;
 	font-family: arial;
 	font-size: 0.9375em; /*(100*15)/16=*/
 	font-weight: bold;
+	max-height: 380px;
 	
 }
 
@@ -385,9 +384,7 @@ textarea {
 	width: 100%; /*(100*940)/940=*/
 	display: inline-box;
 	box-sizing: border-box;
-	margin-bottom: 2.12%; /*(100*20)/940=*/
-	height: 42.5%; /*(100*400)/940=*/
-	margin-bottom: 3.2%; /*(100*30)/940=*/
+	margin: 0 auto;
 }
 
 .imgDroite {
@@ -395,6 +392,7 @@ textarea {
 	width: 65.95%; /*(100*620)/940=*/
 	box-sizing: border-box;
 	float: right;
+	margin-bottom: 3%;
 
 }
 
@@ -433,31 +431,7 @@ header {
 
 }
 
-@media screen and (max-width: 680px) {
-	
-	#texteBlocIndex {
-	
-	font-size: 0.9375em;
-	font-weight: bold;
-	font-style: italic;
-	width: 80%;
-	display: inline-block;
-	right: 50%;
-	max-width: 80%;
-	left: 11%;
-	top: 90%;
-	margin-top: 10%;
-	
-}
-	
-	#imageIndex {
-	
-		width: 100%;
-		max-width: 960px;
-		min-width: 40px;
-		margin: 0 auto;
-		
-	}
+@media screen and (max-width: 1100px) {
 	
 	footer {
 	
@@ -465,10 +439,48 @@ header {
     font-family: arial;
     line-height: 2.12%;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     text-align: right;
-    top: 130%;
+	margin-top: 10%;
 	
+	}
+	
+	.texteDroite {
+
+	width: 100%; /*(100*300)/940=*/
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 0.9375em; /*(100*15)/16=*/
+	font-weight: bold;
+	text-align: justify;
+	margin-bottom: 30px;
+	
+	}
+	
+	.imgGauche {
+
+	width: 100%; /*(100*620)/940=*/
+	box-sizing: border-box;
+
+	}
+	
+	.texteGauche {
+
+	width: 100%; /*(100*300)/940=*/
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 0.9375em; /*(100*15)/16=*/
+	font-weight: bold;
+	text-align: justify;
+	margin-bottom: 30px;
+	
+	}
+	
+	.imgDroite {
+
+	width: 100%; /*(100*620)/940=*/
+	box-sizing: border-box;
+
 	}
 	
 	
